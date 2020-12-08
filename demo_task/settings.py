@@ -132,7 +132,7 @@ if DEBUG:
     ]
 else:
     STATIC_ROOT = os.path.join(BASE_DIR,'static')
-
+static_ROOT=os.path.join(BASE_DIR,"Live-static-files","static-root")
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 
